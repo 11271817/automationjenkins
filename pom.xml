@@ -110,7 +110,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>automationjenkis</finalName>
+		<finalName>automationjenkins</finalName>
 		
 		<plugins>
 			<plugin>
@@ -130,7 +130,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/automationjenkis</contextPath>
+						<contextPath>/automationjenkins</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -143,7 +143,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>automationjenkis</wtpContextName>
+					<wtpContextName>automationjenkins</wtpContextName>
 				</configuration>
 			</plugin>
 			
